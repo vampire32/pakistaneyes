@@ -89,17 +89,7 @@ export default async function Home({ params, searchParams }) {
                   className="rounded-full overflow-hidden border-2 border-transparent"
                   href="#"
                 >
-                  <img
-                    alt="Avatar"
-                    className="rounded-full object-cover"
-                    height="32"
-                    src="/placeholder.svg"
-                    style={{
-                      aspectRatio: "32/32",
-                      objectFit: "cover",
-                    }}
-                    width="32"
-                  />
+                
                 </Link>
               </div>
             </div>
