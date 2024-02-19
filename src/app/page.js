@@ -5,7 +5,7 @@ import Link from "next/link";
 import main from "../assets/main.jpg"
 import axios from "axios";
 import React from "react";
-import DynamicMetaTags from "./Components/DynamicMetaTags";
+
 import Head from "next/head";
 export async function generateMetadata({ params, searchParams }, parent) {
   // read route params
